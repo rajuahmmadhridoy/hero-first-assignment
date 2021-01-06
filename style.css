@@ -4,7 +4,6 @@ body{
 h1{
     font-weight: 700;
     color: #17202A;
-    margin: 0;
     font-size: 40px;
 }
 h2,h3,h4{
@@ -23,10 +22,13 @@ section {
     padding-left: 4%;
     padding-right: 2%;
 }
+.header-area {
+    margin-top: 51px;
+}
 .hello{
     font-size: 60px;
+    margin: 5px;
 }
-
 .orange-highlight{
     color: orange;
 }
@@ -49,9 +51,11 @@ img.second-img {
 }
 section.latest-area {
     background: lightgoldenrodyellow;
+    min-height: 550px;
 }
-.latest-head{
-    margin-bottom: 35px;
+.latest-head {
+    margin-bottom: 40px;
+    padding-top: 33px;
     text-align: center;
 }
 .latest-highlight{
@@ -67,7 +71,7 @@ section.latest-area {
     margin-left: 26px;
     float: left;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 10px 10px 30px lightgrey;
 }
 .width33 img{
@@ -79,6 +83,9 @@ section.latest-area {
 .half-width.Download-cv {
     height: 500px;
 }
+.half-width.Download-cv {
+    box-shadow: 10px 10px 40px lightgrey;
+}
 .lastet-work{
     height: 700px;
     background-color: black;
@@ -86,7 +93,12 @@ section.latest-area {
 img.clint-img {
     width: 70%;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px lightgrey;
+}
+.happy-clint-text h1 {
+    padding-top: 30px;
+}
+.client-info h1 {
+    font-size: 30px;
 }
 .happy-clint-text {
     text-align: center;
@@ -107,8 +119,9 @@ footer {
     width: 60%;
     padding-left: 20%;
 }
-.inquey-area{
-    background-image: url("shapes/inqurybg");
+.inquey-area {
+    background-image: url(shapes/inqurybg);
+    background-size: cover;
     height: 200px;
     border-radius: 30px;
 }
@@ -119,10 +132,15 @@ h2.inquery-text {
     font-weight: 700;
 }
 .lets-chat {
-    margin-left: 207px;
-    margin-top: 80px;
+    margin-left: 190px;
+    margin-top: 73px;
+    display: inline-block;
 }
 
+
+.connected-area {
+    padding-top: 20px;
+}
 .connected-inner {
     text-align: center;
 }
@@ -132,4 +150,7 @@ h2.inquery-text {
 .social-icon img {
     width: 43px;
     padding: 0 6px;
+}
+.social-icon {
+    margin-bottom: 50px;
 }
