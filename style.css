@@ -7,10 +7,13 @@ h1{
     margin: 0;
     font-size: 40px;
 }
+h2,h3,h4{
+    color: #17202A;
+}
 p{
     color:gray;
 }
-section{
+section {
     margin-bottom: 50px;
     height: 500px;
 }
@@ -20,12 +23,6 @@ section{
     padding-left: 4%;
     padding-right: 2%;
 }
-/* .half-width-text{
-    width: 35%;
-    float: left;
-    padding-left: 3%;
-    padding-right: 2%;
-} */
 .hello{
     font-size: 60px;
 }
@@ -47,6 +44,12 @@ section{
     width: 100%;
 
 }
+img.second-img {
+    width: 80%;
+}
+section.latest-area {
+    background: lightgoldenrodyellow;
+}
 .latest-head{
     margin-bottom: 35px;
     text-align: center;
@@ -54,7 +57,6 @@ section{
 .latest-highlight{
     color: orangered;
 }
-
 
 .width33 {
     width: 30.33%;
@@ -81,20 +83,17 @@ section{
     height: 700px;
     background-color: black;
 }
+img.clint-img {
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px lightgrey;
+}
 .happy-clint-text {
     text-align: center;
     margin-bottom: 80px;
+    font-size: 60px;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -114,11 +113,23 @@ footer {
     border-radius: 30px;
 }
 h2.inquery-text {
-    margin-top: 60px;
-    font-size: 50px;
+    margin-top: 67px;
+    font-size: 49px;
+    color: #fff;
     font-weight: 700;
 }
 .lets-chat {
     margin-left: 207px;
-    margin-top: 60px;
+    margin-top: 80px;
+}
+
+.connected-inner {
+    text-align: center;
+}
+.connected-inner h4 {
+    color: gray;
+}
+.social-icon img {
+    width: 43px;
+    padding: 0 6px;
 }
