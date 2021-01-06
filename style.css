@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: #17202A;
+    margin: 0;
+    font-size: 40px;
+}
+p{
+    color:gray;
+}
+section{
+    margin-bottom: 50px;
+    height: 500px;
+}
+.half-width {
+    width: 43%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+/* .half-width-text{
+    width: 35%;
+    float: left;
+    padding-left: 3%;
+    padding-right: 2%;
+} */
+.hello{
+    font-size: 60px;
+}
+
+.orange-highlight{
+    color: orange;
+}
+.hire-me{
+    background-image: linear-gradient(45deg, orange,red);
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+   font-size: 20px;
+   color: #fff;
+   margin-top: 15px;
+   display: inline-block;
+}
+.half-width > img{
+    width: 100%;
+
+}
+.latest-head{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.latest-highlight{
+    color: orangered;
+}
+
+
+.width33 {
+    width: 30.33%;
+    height: 400px;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding: 25px 30px;
+    margin-left: 26px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px lightgrey;
+}
+.width33 img{
+    width: 100%;
+}
+.text-area {
+    padding: 0 20px;
+}
+.half-width.Download-cv {
+    height: 500px;
+}
+.lastet-work{
+    height: 700px;
+    background-color: black;
+}
+.happy-clint-text {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 167px;
+}
+.inquey-area{
+    background-color: gray;
+}
+.width60{
+    width: 60%;
+    padding-left: 20%;
+}
+.inquey-area{
+    background-image: url("shapes/inqurybg");
+    height: 200px;
+    border-radius: 30px;
+}
+h2.inquery-text {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.lets-chat {
+    margin-left: 207px;
+    margin-top: 60px;
+}
